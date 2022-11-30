@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./Components/Home/LandingPage";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import FaqHeader from "../src/Components/FAQ/FaqHeader";
@@ -9,7 +9,7 @@ import ErrorPage from "./Components/ErrorPage/ErrorPage";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<AboutUs />} />
@@ -19,7 +19,7 @@ function App() {
           <Route path="/orderservice" element={<OrderService />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
