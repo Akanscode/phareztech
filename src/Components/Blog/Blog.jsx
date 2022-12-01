@@ -21,7 +21,6 @@ const Blog = () => {
             <form action="" className="md:w-[652px] mt-12">
               <div className="md:relative flex flex-col md:flex-row  items-center px-2 p-1 rounded-full md:bg-white md:shadow-md md:p-2 lg:pr-3">
                 <input
-                  autocomplete="email"
                   placeholder="Your mail address"
                   className="w-50 md:w-full p-4 rounded-full placeholder-gray-600 bg-white ring-0 ring-offset-0 outline-none"
                   type="email"

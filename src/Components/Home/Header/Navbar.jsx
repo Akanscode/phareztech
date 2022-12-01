@@ -5,7 +5,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [navbarOpen, setNavbarOpen] = useState(false);
+  const [navbarOpen, setNavBarOpen] = useState(false);
   return (
     <div>
       <nav className="fixed inset-x-0 z-50 bg-slate-50">
@@ -18,7 +18,7 @@ const Navbar = () => {
               <button
                 className="text-[#00050F] cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block md:hidden  outline-none focus:outline-none"
                 type="button"
-                onClick={() => setNavbarOpen(!navbarOpen)}
+                onClick={() => setNavBarOpen(!navbarOpen)}
               >
                 {navbarOpen ? (
                   <AiOutlineClose size={25} />

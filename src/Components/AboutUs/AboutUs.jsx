@@ -139,7 +139,7 @@ const AboutUs = () => {
                   key={index}
                   className="relative rounded-md border border-[#003399] border-t-8 border-b-8 border-r-4 border-l-4"
                 >
-                  <span class="absolute bottom-0 left-[290px] rotate-90 rounded-b-md w-[25px] h-[20px] bg-gradient-to-r from-[#F736C7] via-[#903ABB] to-[#003399] "></span>
+                  <span className="absolute bottom-0 left-[240px] md:left-[290px] rotate-90 rounded-b-md w-[25px] h-[20px] bg-gradient-to-r from-[#F736C7] via-[#903ABB] to-[#003399] "></span>
                   <div className="relative pb-56 mb-4 shadow lg:pb-64">
                     <img
                       className=" absolute object-cover p-4 w-full h-full rounded"
