@@ -12,11 +12,11 @@ const Blog = () => {
         <div className="relative px-6 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="flex flex-col items-center justify-center pt-20 md:pt-32">
             <h1 className="text-[#FFFFFF] text-center font-bold text-2xl md:text-5xl md:tracking-wider">
-              Sit gravida aliquam.
+              Our Updates
             </h1>
-            <p className="max-w-md text-center text-sm font-normal text-[#FFFFFF] pt-4">
-              Egestas quam ut aliquet in adipiscing donec at. Amet et adipiscing
-              nec diam adipiscing tempor, maecenas mauris. Aliquet sapien et.
+            <p className="max-w-sm text-center text-[0.80rem] font-normal text-[#FFFFFF] pt-4 ">
+              Enter your email to get updates on all of our latest projects and
+              news.
             </p>
             <form action="" className="md:w-[652px] mt-12">
               <div className="md:relative flex flex-col md:flex-row  items-center px-2 p-1 rounded-full md:bg-white md:shadow-md md:p-2 lg:pr-3">

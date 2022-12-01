@@ -13,7 +13,7 @@ const BlogContent = () => {
       <div className="bg-white w-full">
         <div className="relative px-6 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:py-20">
           <div className="pt-6">
-            <h2 className="text-[#00050F] font-medium text-[1.25rem]">
+            <h2 className="text-[#00050F] font-bold text-[1.50rem]">
               Latest Articles
             </h2>
             <div className="">

@@ -18,7 +18,7 @@ const FaqContent = () => {
           {/**=======faq title=== */}
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-row items-center justify-center">
-              <h4 className="text-[#101828] font-semibold text-center text-[18px] md:text-[20px] relative">
+              <h4 className="text-[#101828] font-semibold text-center text-[18px] md:text-[20px] relative md:capitalize">
                 Frequently asked questions
               </h4>
               <svg
@@ -87,7 +87,7 @@ const FaqContent = () => {
           {/**===========still need help========= */}
           <div className="mt-20">
             <div className="flex flex-col items-center justify-center">
-              <h2 className="text-[30px] font-semibold text-[#101828]">
+              <h2 className="text-[30px] font-semibold text-[#101828] capitalize">
                 Still need help?
               </h2>
               <p className="max-w-md font-normal text-center text-sm text-[#667085]">

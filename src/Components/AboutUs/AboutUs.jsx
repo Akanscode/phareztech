@@ -18,7 +18,7 @@ const AboutUs = () => {
         <div className="relative px-6 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="flex flex-col items-center justify-center">
             <h1 className=" font-bold text-[40px] text-center max-w-xl pt-20">
-              <span className="bg-clip-text text-clip text-transparent bg-gradient-to-r from-[#F736C7] via-[#903ABB] to-[#003399]">
+              <span className="bg-clip-text text-clip text-transparent bg-gradient-to-r from-[#F736C7] via-[#903ABB] to-[#003399] capitalize">
                 {" "}
                 Why we convert dreamware to software?
               </span>{" "}

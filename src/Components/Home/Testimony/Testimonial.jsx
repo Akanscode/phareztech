@@ -12,7 +12,7 @@ const Testimonial = () => {
               {" "}
               Testimonials
             </button>{" "}
-            <h1 className="text-[#FFFFFF] text-2xl md:text-3xl font-bold py-6">
+            <h1 className="text-[#FFFFFF] text-2xl md:text-3xl font-bold py-6 capitalize">
               Our happy clients
             </h1>
           </div>

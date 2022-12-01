@@ -70,7 +70,7 @@ const OrderService = () => {
           </div>
           <div className=" lg:w-1/2 lg:mx-6">
             <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl lg:max-w-xl shadow-gray-400/50">
-              <h1 className=" text-[1.40rem] md:text-[2.0rem] font-bold text-gray-700">
+              <h1 className=" text-[1.40rem] md:text-[2.0rem] font-bold text-gray-700 capitalize">
                 Get in touch today
               </h1>
               <p className="text-[#667085] font-normal text-[0.70rem] max-w-xs">
@@ -81,7 +81,7 @@ const OrderService = () => {
               <form className="mt-6">
                 <div className="flex-1">
                   <label className="block mb-2 text-sm text-[#101828]">
-                    Full Name
+                    Full name
                   </label>
                   <input
                     type="text"

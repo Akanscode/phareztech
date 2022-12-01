@@ -51,13 +51,13 @@ export const products = [
   {
     id: 1,
     cover: "./Images/productimage.png",
-    title: "Work name here",
+    title: "Product name here",
     text: "Labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.",
   },
   {
     id: 2,
     cover: "./Images/productimage2.png",
-    title: "Work name here",
+    title: "Product name here",
     text: "Rempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt u",
   },
 ];
@@ -257,6 +257,7 @@ export const faqdata = [
 export const productdata = [
   {
     id: 1,
+
     cover: "./Images/productimage/productimage.png",
     title: "Product name here",
     text: "Labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.",
@@ -269,6 +270,7 @@ export const productdata = [
   },
   {
     id: 3,
+
     cover: "./Images/productimage/productimage3.png",
     title: "Product name here",
     text: "Labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.",

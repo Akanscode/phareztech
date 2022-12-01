@@ -28,7 +28,7 @@ const Project = () => {
                   className="object-cover w-full h-36 md:h-64 shadow-lg"
                 />
                 <div className="pt-4">
-                  <h3 className="text-[1.0rem] font-bold pb-3 text-black ">
+                  <h3 className="text-[1.0rem] font-bold pb-3 text-black">
                     {val.title}
                   </h3>
                   <p className="text-xs text-slate-400 max-w-md pt-2">

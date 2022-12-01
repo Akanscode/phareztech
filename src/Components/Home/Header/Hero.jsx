@@ -8,13 +8,13 @@ const Hero = () => {
       <div className="bg-gradient-to-r from-[#F736C7] via-[#903ABB] to-[#003399] w-full h-[900px] md:h-[1068px] ">
         <div className="relative px-6 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="flex flex-col items-center justify-center pt-32 md:pt-40">
-            <h6 className="text-[#EEF3FF] text-sm text-center pb-4 ">
+            <h6 className="text-[#EEF3FF] text-sm text-center pb-4 capitalize  ">
               Welcome to Phareztech
             </h6>
-            <h1 className="text-[#FFFFFF] text-center font-bold text-2xl md:text-5xl md:tracking-wider ">
+            <h1 className="text-[#FFFFFF] text-center font-bold text-2xl md:text-5xl md:tracking-wider capitalize ">
               Convert your wireframes to
             </h1>
-            <h1 className="md:text-center  text-[#FFFFFF]  font-bold text-2xl md:text-5xl md:tracking-wider  pt-4">
+            <h1 className="md:text-center  text-[#FFFFFF]  font-bold text-2xl md:text-5xl md:tracking-wider pt-4 capitalize">
               enterprise applications
             </h1>
             <p className="max-w-md text-center text-sm font-normal text-[#FFFFFF] pt-4">
@@ -36,7 +36,7 @@ const Hero = () => {
               <img
                 src={heroimage}
                 alt="heroimage"
-                className="md:h-[520px] md:w-[700px] w-auto h-[300px] shrink-0"
+                className=" w-auto h-auto shrink-0"
               />
             </div>
           </div>
