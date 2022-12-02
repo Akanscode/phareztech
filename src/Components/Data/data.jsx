@@ -20,6 +20,9 @@ export const storyimage4 = "./Images/aboutimage/storyimg3.png";
 // order for service image
 export const downarrow = "./Images/orderserviceimg/Downarrow.png";
 export const customerimg = "./Images/orderserviceimg/customerimg.png";
+// article image for post in blog
+export const blogimg = "./Images/blogimage/blogimg.png";
+export const blogimg88 = "./Images/blogimage/blogimg88.png";
 
 export const aboutdata = [
   {

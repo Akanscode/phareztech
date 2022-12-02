@@ -4,7 +4,7 @@ import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import { FaFacebook, FaTwitter, FaGithubAlt } from "react-icons/fa";
 import { circle } from "../../Data/data";
 import { primarylogo } from "../../Data/data";
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   const [date, setDate] = useState();
 
@@ -86,27 +86,27 @@ const Footer = () => {
             <div>
               <p className="font-bold text-[#003399]">Company</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-[#667085]">
-                <a href="/" className="hover:opacity-75">
+                <Link to="/about" className="hover:opacity-75">
                   {" "}
                   About Phareztech{" "}
-                </a>
-                <a href="/" className="hover:opacity-75">
+                </Link>
+                <Link to="/blog" className="hover:opacity-75">
                   {" "}
                   Blog
-                </a>
-                <a href="/" className="hover:opacity-75">
+                </Link>
+                <Link to="/contact" className="hover:opacity-75">
                   {" "}
                   Contact Us
-                </a>
+                </Link>
               </nav>
             </div>
             <div>
               <p className="font-bold text-[#003399] ">Legal</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-[#667085]">
-                <a href="/" className="hover:opacity-75">
+                <Link to="/policy" className="hover:opacity-75">
                   {" "}
                   Privacy Policy
-                </a>
+                </Link>
                 <a href="/" className="hover:opacity-75">
                   {" "}
                   Terms of Service

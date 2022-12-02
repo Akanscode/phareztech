@@ -6,6 +6,7 @@ import { Scrollbar } from "swiper";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/scrollbar";
+import { Link } from "react-router-dom";
 
 const BlogContent = () => {
   return (
@@ -30,10 +31,12 @@ const BlogContent = () => {
                       <button className="bg-gradient-to-r from-[#F736C7] via-[#903ABB] to-[#003399] text-slate-100 rounded-full  w-[30px] h-[28px]">
                         {val.btn}
                       </button>
+                      <Link to="/article">
+                        <button className="text-slate-500 font-medium text-[1.0rem] px-2 h-[28px] w-[90px] bg-transparent border border-[#667085] rounded-full">
+                          {val.tag}
+                        </button>
+                      </Link>
 
-                      <button className="text-slate-500 font-medium text-[1.0rem] px-2 h-[28px] w-[90px] bg-transparent border border-[#667085] rounded-full">
-                        {val.tag}
-                      </button>
                       <button className="text-slate-500 font-medium text-[1.0rem] px-2 h-[28px] w-[90px] bg-transparent border border-[#667085] rounded-full">
                         {val.tag}
                       </button>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { productdata } from "../Data/data";
 import { HiOutlineChevronRight } from "react-icons/hi2";
 import { FaSearch } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ProductContent = () => {
   const [openTab, setOpenTab] = useState(1);
@@ -146,9 +147,11 @@ const ProductContent = () => {
                             <p className="text-xs text-slate-400 max-w-md pt-2">
                               {val.text}
                             </p>
-                            <button className="mt-4 bg-gradient-to-r from-[#F736C7] via-[#903ABB] to-[#003399] text-slate-100 rounded-lg h-[44px] w-[135.5px] flex items-center justify-center gap-3 ">
-                              Know more <HiOutlineChevronRight size={15} />
-                            </button>
+                            <Link to="/productdetails">
+                              <button className="mt-4 bg-gradient-to-r from-[#F736C7] via-[#903ABB] to-[#003399] text-slate-100 rounded-lg h-[44px] w-[135.5px] flex items-center justify-center gap-3 ">
+                                Know more <HiOutlineChevronRight size={15} />
+                              </button>
+                            </Link>
                           </div>
                         </div>
                       ))}
